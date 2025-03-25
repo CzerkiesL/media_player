@@ -1,3 +1,7 @@
+from WindowParameter import root
+
+root.mainloop()
+
 def creer_playlist_m3u(nom_fichier, pistes):
     """
     Crée un fichier .m3u avec la liste de pistes donnée.
@@ -18,8 +22,6 @@ def creer_playlist_m3u(nom_fichier, pistes):
 # Exemple d'utilisation
 if __name__ == "__main__":
     pistes_audio = [
-        "/chemin/vers/musique1.mp3",
-        "/chemin/vers/musique2.mp3",
-        "https://exemple.com/stream.mp3"
+        "B:/Music/test/01. U2 - Vertigo (Remastered 2024).m4a",
     ]
     creer_playlist_m3u("ma_playlist.m3u", pistes_audio)
