@@ -1,16 +1,25 @@
-# This is a sample Python script.
+def creer_playlist_m3u(nom_fichier, pistes):
+    """
+    Crée un fichier .m3u avec la liste de pistes donnée.
 
-# Press Ctrl+F5 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    :param nom_fichier: Nom du fichier M3U à créer (ex: 'playlist.m3u')
+    :param pistes: Liste de chemins vers les fichiers audio/vidéo
+    """
+    try:
+        with open(nom_fichier, 'w', encoding='utf-8') as f:
+            f.write("#EXTM3U\n")  # Entête obligatoire pour le format étendu
+            for piste in pistes:
+                f.write(f"#EXTINF:-1,{piste.split('/')[-1]}\n")  # Nom de la piste
+                f.write(f"{piste}\n")
+        print(f"Playlist '{nom_fichier}' créée avec succès.")
+    except Exception as e:
+        print(f"Erreur lors de la création de la playlist : {e}")
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Exemple d'utilisation
+if __name__ == "__main__":
+    pistes_audio = [
+        "/chemin/vers/musique1.mp3",
+        "/chemin/vers/musique2.mp3",
+        "https://exemple.com/stream.mp3"
+    ]
+    creer_playlist_m3u("ma_playlist.m3u", pistes_audio)
