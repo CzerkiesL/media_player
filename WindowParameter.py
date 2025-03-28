@@ -36,7 +36,7 @@ btn_browse.grid(row=0, column=0)
 btn_create_playlist = tk.Button(
     btn_container,
     text="creer la playlist",
-    command= lambda: open_playlist_name_popup(music_path_list)
+    command= lambda: open_playlist_name_popup(music_list)
 )
 btn_create_playlist.grid(column=0, row=1)
 
