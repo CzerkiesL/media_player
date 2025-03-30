@@ -1,4 +1,5 @@
-from WindowParameter import root
+from window.root.main_window import root
 
 
 root.mainloop()
+

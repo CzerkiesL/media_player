@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b257a46-e5a5-479b-8260-dcaddf792e89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/classname/Music.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utility/create_playlist_File.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utility/file_recover.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utility/get_metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window/root/music_selection_table.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Create_Playlist_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/Create_Playlist_File.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File_Recover.py" beforeDir="false" afterPath="$PROJECT_DIR$/File_Recover.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowParameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/WindowParameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Create_Playlist_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/window/popup/pop_playlist_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File_Recover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowParameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/window/root/main_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classname/Music.py" beforeDir="false" afterPath="$PROJECT_DIR$/classname/Music.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +54,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.WindowParameter.executor": "Run",
-    "Python.__main__.executor": "Run",
-    "Python.__main__.py.executor": "Run",
-    "Python.window_porameter.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "music__class",
-    "last_opened_file_path": "B:/_media_player/__main__.py",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.WindowParameter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__main__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__main__.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.window_porameter.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;music__class&quot;,
+    &quot;last_opened_file_path&quot;: &quot;B:/_media_player/__main__.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="media_player" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="media_player" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\_media_player\utility" />
+      <recent name="B:\_media_player\window\main" />
+      <recent name="B:\_media_player\window\popup" />
+      <recent name="B:\_media_player\window" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python">
       <module name="media_player" />
@@ -104,5 +125,53 @@
       <updated>1742894272272</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/music_class" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
