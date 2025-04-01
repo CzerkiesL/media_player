@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b257a46-e5a5-479b-8260-dcaddf792e89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/file_path_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utility/wrtie_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/window/component/btn_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/window/root/playlist_creator/playlist_creator_tab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/window/style.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utility/init_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/variable/global_var.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utility/file_recover.py" beforeDir="false" afterPath="$PROJECT_DIR$/utility/file_recover.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility/get_metadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/window/root/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/window/root/main_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/window/root/music_selection_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/window/root/playlist_creator/music_selection_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window/root/playlist_creator/playlist_creator_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/window/root/playlist_creator/playlist_creator_tab.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
