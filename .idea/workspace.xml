@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b257a46-e5a5-479b-8260-dcaddf792e89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/utility/init_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variable/global_var.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classname/App.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classname/component/Button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classname/component/Frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utility/screen_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/media_player.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/media_player.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility/file_recover.py" beforeDir="false" afterPath="$PROJECT_DIR$/utility/file_recover.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/file_path_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/file_path_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window/component/btn_component.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/window/root/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/window/root/main_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/window/root/playlist_creator/playlist_creator_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/window/root/playlist_creator/playlist_creator_tab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window/style.py" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +40,12 @@
     &quot;assignee&quot;: &quot;CzerkiesL&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/CzerkiesL/media_player.git&quot;,
-    &quot;accountId&quot;: &quot;0e51faa2-e62a-4a02-bf43-2300c9158a74&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/CzerkiesL/media_player.git",
+    "accountId": "0c9e9236-dfcf-4591-a4ea-e007df862194"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -60,7 +67,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;B:/_media_player/__main__.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="PyConsoleOptionsProvider">
@@ -73,11 +80,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\czerk\Documents\code\style" />
       <recent name="B:\_media_player\window" />
       <recent name="B:\_media_player\window\root\component" />
       <recent name="B:\_media_player\window\root\playlist_creator" />
       <recent name="B:\_media_player\utility" />
-      <recent name="B:\_media_player\window\main" />
     </key>
   </component>
   <component name="RunManager">
@@ -90,7 +97,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13 (_media_player)" />
+      <option name="SDK_NAME" value="Python 3.13 virtualenv at C:\Users\czerk\Documents\code\.venv" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />

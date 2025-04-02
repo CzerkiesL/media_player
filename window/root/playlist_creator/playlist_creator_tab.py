@@ -1,10 +1,10 @@
 from tkinter import *
 import tkinter as tk
 
-from window.style import style
-from window.component.btn_component import create_btn
+from style.style import style
+from classname.component.Button import Btn
 from variable.global_var import *
-from utility.file_recover import browse_file, playlist_music_list, complete_music_list
+from utility.file_recover import browse_file, playlist_music_list
 from window.popup.pop_playlist_name import open_playlist_name_popup
 
 
@@ -16,7 +16,7 @@ def create_playlist_tab(p_root):
         relief="flat")
     playlist_creator_tab.pack(
         side=LEFT,
-        anchor='nw',
+        anchor='n',
         fill="both",
         expand=True
     )
@@ -64,22 +64,22 @@ def create_btn_container(p_frame, p_root):
         fill="x",
         expand=True
     )
-    create_btn(btn_container, "parcourir", LEFT, browse_file)
-    create_btn(btn_container, "créer la playlist", RIGHT, open_playlist_name_popup,playlist_music_list, p_root)
+    Btn(btn_container, "parcourir", LEFT, browse_file)
+    Btn(btn_container, "créer la playlist", RIGHT, open_playlist_name_popup,playlist_music_list, p_root)
 
 #######################################################################################################################
 #######################################################################################################################
 #######################################################################################################################
 
 def create_filter_container(p_frame, p_root):
-
-    genre_filter_container = Frame(p_frame)
-    artist_filter_container = Frame(p_frame)
+    filter_container = Frame(p_frame)
+    genre_filter_container = Frame(filter_container)
+    artist_filter_container = Frame(filter_container)
 
     for value in new_filter_genre:
-        create_btn(genre_filter_container, value, LEFT, print, "hello")
+        Btn(genre_filter_container, value, LEFT, print, "hello")
     for value in new_filter_artist:
-        create_btn(artist_filter_container, value, RIGHT, print, "hello")
+        Btn(artist_filter_container, value, RIGHT, print, "hello")
 
     new_filter_genre.clear()
     new_filter_artist.clear()
